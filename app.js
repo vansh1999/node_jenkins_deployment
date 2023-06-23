@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('added secret in webhook');
+  res.end('Hello Jenkins. We have automatically deployed !');
 });
 
 server.listen(port, hostname, () => {
