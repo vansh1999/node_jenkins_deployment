@@ -6,7 +6,7 @@ const port = 3000;
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello jenkins deployment. Docker compose is working too');
+  res.end('hello');
 });
 
 server.listen(port, hostname, () => {
