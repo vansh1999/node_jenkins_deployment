@@ -2,6 +2,6 @@ version: '3.9'
 
 services:
   web:
-    image: "nodeapp:latest"
+    image: nodeapp-cicd:latest
     ports:
       - "3000:3000"
